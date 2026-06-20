@@ -11,8 +11,7 @@ public class ArmstrongNumber {
         int original = num;
         int sum = 0;
 
-        // find number of digits
-        int digits = String.valueOf(num).length();
+        
 
         while (num != 0) {
             int digit = num % 10;
